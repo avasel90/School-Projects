@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang ="en">
+<body>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Contact</h1>
+        <img src="images/Flag_of_Tennessee (1).svg"
+        alt="Flag of Tennessee"
+        class="state-flag">
+    </header>
+
+<nav>
+    <a href ="index.html">Home</a>
+    <a href = "nashville.html">Nashville</a>
+    <a href = "memphis.html">Memphis</a>
+    <a href = "knoxville.html">Knoxville</a>
+    <a href = "contact.html">Contact</a>
+</nav>
+
+<main>
+    <h2>Contact Us</h2>
+    
+    <form id="contact-form">
+
+        <p id="form-tag">Tennessee Information Request</p>
+
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" class="form-field">
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" class="form-field">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" class="form-field">
+
+        <label for="confirm-email">Confirm Email:</label>
+        <input type="email" id="confirm-email" name="confirm-email" class="form-field">
+        
+        <label for="question">Question:</label>
+        <textarea id="question" name="question"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+            const email = document.getElementById("email").value;
+            const confirmEmail = document.getElementById("confirm-email").value;
+
+            if (email !== confirmEmail) {
+                event.preventDefault();
+                alert("Email addresses do not match. Please check and try again.");
+            }
+        });
+
+           
+    </script>
+</main>
+
+</html>

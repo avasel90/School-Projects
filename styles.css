@@ -1,0 +1,242 @@
+body {background-color: #FFF1E6; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(to bottom, #FF8C00, #FF8200);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.10);
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'copperplate', "Copperplate Goth Light", serif;
+    font-size: 36px;
+    letter-spacing: 3px;
+}
+
+nav {
+    padding: 12px;
+    text-align: center;
+    background: linear-gradient(to bottom, #D35400 0%, #E85D04 70%, #FF8200 100%);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
+}
+
+nav a {color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    padding: 8px 10px;
+}
+
+section {
+    float: left;
+    width: 65%;
+    padding: 20px 30px 20px 20px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+section h2,
+aside h2,
+main h2 {
+    font-family: 'American Typewriter', Georgia, serif;
+    letter-spacing: 1px;
+}
+
+.knoxville-overview {
+    text-align: left;
+}
+
+.knoxville-overview h2 {
+    text-align: center;
+}
+
+.knoxville-overview p {
+    text-align: left;
+    padding-left: 50px;
+    margin: 8px 0;
+}
+
+.nashville-overview {
+    text-align: left;
+}
+
+.nashville-overview h2 {
+    text-align: center;
+}
+
+.nashville-overview p {
+    text-align: left;
+    padding-left: 50px;
+    margin: 8px 0;
+
+}
+
+.memphis-overview {
+    text-align: left;
+}
+
+.memphis-overview h2 {
+    text-align: center;
+}
+
+.memphis-overview p {
+    text-align: left;
+    padding-left: 50px;
+    margin: 8px 0;
+}
+
+.city-table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.city-table td {
+    border: 1px solid #D35400;
+    padding: 10px;
+    text-align: center;
+}
+
+.city-table th {
+    background-color: #E85D04;
+    padding: 10px;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.comparison-heading {
+    text-align: center;
+    clear: both;
+    padding-top: 20px;
+}
+
+aside {
+    float: right;
+    width: 35%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #FFD6A5;
+    border-left: 3px solid #FF8200;
+}
+
+nav a:hover {background-color: #FF8200;
+    border-radius: 5px;
+}
+
+.state-flag {
+width:70px;
+height:auto;
+border-radius: 4px;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.20);
+}
+
+.smoky-mountains {
+    display: block;
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+}
+
+.downtown-knoxville {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    max-height: 350px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.city-image {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    max-height: 350px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.memphis-image {
+    display: block;
+    width: 50%;
+    max-width: 700px;
+    max-height: 350px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main h2 {
+    text-align: center;
+}
+
+form {
+    width: 60%;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #FFD6A5;
+    border-left: 3px solid #FF8200;
+    box-sizing: border-box;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    min-height: 100px;
+}
+
+form button {
+    margin-top: 12px;
+    padding: 10px 20px;
+}
+
+aside,
+form {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+    border-radius: 8px;
+}
+
+#contact-form {
+    position: relative;
+    top: 5px;
+}
+
+#form-tag {
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    font-family: 'American Typewriter', Georgia, serif;
+    font-size: 12px;
+    margin: 0;
+}
+
+.form-field {
+    border: 1px solid #D35400;
+}
